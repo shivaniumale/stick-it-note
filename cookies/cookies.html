@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cookies</title>
+    <script>
+        function clicked(){
+          /* console.log("clicked")
+            let key=document.myForm.name1.value
+            let value=document.myForm.name2.value
+            
+            localStorage.setItem(key,value)*/
+            //localStorage.removeItem("color")
+            console.log(localStorage.getItem("hii"))
+            localStorage.clear()
+
+        }
+    </script>
+</head>
+<body>
+    <form name="myForm">
+        Enter cookie info:<input type="text" name="name1"/>
+        Enter cookie info:<input type="text" name="name2"/>
+        <input type="button" value="submit" onclick="clicked()"/>
+    </form>
+</body>
+</html>

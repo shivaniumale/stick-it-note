@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="manifest" href="/Project-walk-through/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick It notes</title>
+</head>
+<body>
+    <p id="expr">
+        <br/>
+        Hello this is <span>Shivani</span> How are you?
+        <br/>
+    </p>
+    <div id="heading">
+        <h1>Stick-It notes</h1>
+        <p id="shiv">By shivani</p>
+    </div>
+    <div id="form">
+        <form action="" id="inputForm">
+            <input type="text" name="titte" id="new-note-title-input" class="inputText" placeholder="Title" 
+            autocomplete="off" required autofocus/>
+            <input type="text" name="content" id="new-note-body-input" class="inputText" placeholder="Content" 
+            autocomplete="off" required 
+            />
+            <button type="submit" class="btn">Create note</button>
+        </form>
+    </div>
+    <h3 id="no-notes">No notes found ,add one!</h3>
+    <ul id="notes">
+        <li>
+            <a href="#">
+                <h2>Some note</h2>
+                <button class="delete">X</button>
+                <p>Content of note</p>
+            </a>
+        </li>
+    </ul>
+    <script src="/Project-walk-through/file.js"></script>
+</body>
+</html>
